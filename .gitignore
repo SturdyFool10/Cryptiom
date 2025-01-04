@@ -1,0 +1,12 @@
+/.zed/*
+/.vs/*
+/.vscode/*
+/.idea/*
+*.sln
+*.vcxproj
+*.vcxproj.user
+/Client/build/*
+/Client/deps/*
+/Server/target/*
+/Client/compile_commands/*
+/Server/Cargo.lock
