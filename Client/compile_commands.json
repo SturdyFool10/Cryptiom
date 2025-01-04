@@ -1,7 +1,0 @@
-[
-          {
-            "directory": "F:/Projects/Cryptiom/Client/build",
-            "file": "F:/Projects/Cryptiom/Client/src/main.cpp",
-            "command": "cc -MD -MP -DDEBUG -IF:/Projects/Cryptiom/Client/deps/include -m64 -O0 -g -o F:/Projects/Cryptiom/Client/bin-int/Debug/main.o -MF F:/Projects/Cryptiom/Client/bin-int/Debug/main.d -c F:/Projects/Cryptiom/Client/src/main.cpp"
-          }
-]
