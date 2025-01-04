@@ -12,3 +12,4 @@
 /Server/Cargo.lock
 /Client/.cache/*
 /Client/bin-int/*
+/Client/compile_commands.json
