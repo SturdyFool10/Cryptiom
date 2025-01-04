@@ -24,11 +24,16 @@ files {
     "src/**.hpp"
 }
 
-includedirs { "deps/include" }
-libdirs {
-    "deps/libs(Static)",
-    "deps/libs(dynamic)"
+includedirs {
+    "deps/include",
+    "C:/raylib/raylib/src"
 }
+
+libdirs {
+    "deps/libs(Static)/"
+}
+
+links { "raylib.lib", "winmm.lib" }
 
 filter "configurations:Debug"
 defines { "DEBUG" }
