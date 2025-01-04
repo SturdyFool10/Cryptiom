@@ -13,3 +13,4 @@
 /Client/.cache/*
 /Client/bin-int/*
 /Client/compile_commands.json
+/Client/bin/*
