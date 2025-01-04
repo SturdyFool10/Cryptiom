@@ -1,8 +1,19 @@
 #include <cstdint>
 #include <iostream>
-#define CLAY_IMPLIMENTATION
+#include <string>
+#define CLAY_IMPLEMENTATION
 #include "clay/clay.h"
 #include "clay/renderers/raylib/clay_renderer_raylib.c"
+void clay_error_printer_func(Clay_ErrorData data) {
+    std::string text = std::string(data.errorText.chars);
+    std::cout << "Error: " << text << std::endl;
+}
+
+// Create the error handler structure
+Clay_ErrorHandler clay_error_printer = {
+    .errorHandlerFunction = clay_error_printer_func,
+    .userData = 0
+};
 int main() {
     std::cout << "Hello, World!" << std::endl;
     Clay_Raylib_Initialize(800, 600, "Hello Clay+Raylib", FLAG_WINDOW_RESIZABLE);
@@ -11,11 +22,10 @@ int main() {
         .capacity = total_mem,
         .memory = (char*)malloc(total_mem)
     };
-    Clay_Initialize(arena, (Clay_Dimensions) {
-        .width = static_cast<float>(GetScreenWidth()),
-        .height = static_cast<float>(GetScreenHeight())
-    });
-
+    Clay_Initialize(arena, {
+        .width = 800,
+        .height = 600
+    }, clay_error_printer);
     while (!WindowShouldClose()) {
         Clay_SetLayoutDimensions({
             .width = static_cast<float>(GetScreenWidth()),
