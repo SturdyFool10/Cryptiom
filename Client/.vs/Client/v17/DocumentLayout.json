@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects\\Cryptiom\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{644D06AC-50EF-3082-39AA-44D625EBB7D2}|build\\Client.vcxproj|F:\\Projects\\Cryptiom\\Client\\src\\server_connection.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{644D06AC-50EF-3082-39AA-44D625EBB7D2}|build\\Client.vcxproj|solutionrelative:src\\server_connection.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644D06AC-50EF-3082-39AA-44D625EBB7D2}|build\\Client.vcxproj|F:\\Projects\\Cryptiom\\Client\\src\\AppState.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{644D06AC-50EF-3082-39AA-44D625EBB7D2}|build\\Client.vcxproj|solutionrelative:src\\AppState.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "server_connection.hpp",
+              "DocumentMoniker": "F:\\Projects\\Cryptiom\\Client\\src\\server_connection.hpp",
+              "RelativeDocumentMoniker": "src\\server_connection.hpp",
+              "ToolTip": "F:\\Projects\\Cryptiom\\Client\\src\\server_connection.hpp",
+              "RelativeToolTip": "src\\server_connection.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-07T06:47:12.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppState.hpp",
+              "DocumentMoniker": "F:\\Projects\\Cryptiom\\Client\\src\\AppState.hpp",
+              "RelativeDocumentMoniker": "src\\AppState.hpp",
+              "ToolTip": "F:\\Projects\\Cryptiom\\Client\\src\\AppState.hpp",
+              "RelativeToolTip": "src\\AppState.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-07T06:34:49.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
