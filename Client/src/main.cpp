@@ -59,7 +59,8 @@ int main() {
       CLAY(CLAY_ID("HeaderBar"), CLAY_RECTANGLE({rectangle_config}),
            CLAY_LAYOUT({.sizing = {.width = CLAY_SIZING_GROW(),
                                    .height = CLAY_SIZING_FIXED(60)},
-                        .layoutDirection = CLAY_LEFT_TO_RIGHT})) { // HeaderBar children -->
+                        .layoutDirection = CLAY_LEFT_TO_RIGHT})) { // HeaderBar children -->'
+
         // header children
       } // <-- HeaderBar children
       CLAY(CLAY_ID("LowerContent"),
