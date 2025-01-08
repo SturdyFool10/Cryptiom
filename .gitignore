@@ -14,3 +14,4 @@
 /Client/bin-int/*
 /Client/compile_commands.json
 /Client/bin/*
+/Client/config.json
