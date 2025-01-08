@@ -4,7 +4,7 @@ require "export-compile-commands"
 workspace "Client"
 configurations { "Debug", "Release" }
 language "C++"
-cppdialect "C++17"
+cppdialect "C++23"
 architecture "x86_64"
 toolset "clang"
 targetdir "bin/%{cfg.buildcfg}"
