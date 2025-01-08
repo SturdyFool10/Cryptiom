@@ -1,12 +1,12 @@
 #include <string>
 #include <fstream>
-#include "result.hpp"
+#include <expected>
 
 
 
 //shortening section
 using std::string;
-using result::Result;
+using std::expected;
 using std::ifstream;
 using std::ofstream;
 using std::istreambuf_iterator;
@@ -40,7 +40,7 @@ namespace Config {
         }
     };
 
-    Result<config, string> parse_config(string configStr);
+    expected<config, string> parse_config(string configStr);
 
-    Result<config, string> loadConfig(string path);
+    expected<config, string> loadConfig(string path);
 }

@@ -27,11 +27,11 @@ Clay_ErrorHandler clay_error_printer = {
 };
 int main() {
     auto conf = Config::loadConfig("config.json");
-    if (conf.is_err()) {
-        cout << "Failed to load config: " << conf.unwrap_err() << std::endl;
+    if (!conf) {
+        cout << "Failed to load config: " << conf.error() << std::endl;
         return 1;
     }
-    auto config = conf.unwrap();
+    auto config = conf.value();
   Clay_Raylib_Initialize(
       config.window.width, config.window.height, "Hello Clay+Raylib",
       FLAG_WINDOW_RESIZABLE | (config.window.antiAliasing ? FLAG_MSAA_4X_HINT : 0) | (config.window.vsync ? FLAG_VSYNC_HINT : 0));
