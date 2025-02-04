@@ -1,0 +1,1 @@
+DELETE FROM ip_bans WHERE expires_on <= DATETIME('now');

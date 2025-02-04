@@ -12,6 +12,7 @@ tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 warp = { version = "0.3.7", features = ["compression", "tls"] }
 age = { version = "0.11.1" , features = ["async"]}
 rusqlite = { version = "0.33.0", features = ["bundled"] }
+crossterm = "0.28.1"
 
 state = {path = "./crates/state"}
 fs = {path = "../CodeCommon/crates/fs"}
@@ -19,6 +20,7 @@ pretty_logs = {path = "./crates/pretty_logs"}
 webserver = {path = "./crates/webserver"}
 config = {path = "./crates/config"}
 websockets = {path = "./crates/websockets"}
+macros = {path = "./crates/macros"}
 
 [profile.dev]
 incremental = true

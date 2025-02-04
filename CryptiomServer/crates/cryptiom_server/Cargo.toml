@@ -6,6 +6,7 @@ edition = "2021"
 [dependencies]
 tokio.workspace = true
 tracing.workspace = true
+crossterm.workspace = true
 
 
 config.workspace = true
@@ -13,3 +14,5 @@ fs.workspace = true
 pretty_logs.workspace = true
 webserver.workspace = true
 websockets.workspace = true
+macros.workspace = true
+state.workspace = true
