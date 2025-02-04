@@ -15,7 +15,7 @@ pub struct NetworkingConfig {
 #[derive(Serialize, Deserialize, Clone, Debug)]
 pub struct DatabaseConfig {
     use_internal: bool,
-    url: Option<String>
+    path: Option<String>
 }
 
 pub fn load_config(path: &str) -> Result<Config, String> {
