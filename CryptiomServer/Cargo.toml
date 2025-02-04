@@ -10,10 +10,11 @@ tokio = { version = "1.43.0", features = ["full"] }
 tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 warp = { version = "0.3.7", features = ["compression", "tls"] }
-
+age = { version = "0.11.1" , features = ["async"]}
+rusqlite = { version = "0.33.0", features = ["bundled"] }
 
 state = {path = "./crates/state"}
-fs = {path = "./crates/fs"}
+fs = {path = "../CodeCommon/crates/fs"}
 pretty_logs = {path = "./crates/pretty_logs"}
 webserver = {path = "./crates/webserver"}
 config = {path = "./crates/config"}

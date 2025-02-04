@@ -5,7 +5,6 @@
 *.sln
 *.vcxproj
 *.vcxproj.user
-/CryptiomClient/Cargo.lock
-/CryptiomClient/Target/
-/CryptiomServer/Cargo.lock
-/CryptiomServer/Target/
+/*/Cargo.lock
+/*/Target/
+test.sqlite
