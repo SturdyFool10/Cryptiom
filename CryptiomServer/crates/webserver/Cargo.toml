@@ -1,0 +1,10 @@
+[package]
+name = "webserver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config.workspace = true
+websockets.workspace = true
+state.workspace = true
+tracing.workspace = true
